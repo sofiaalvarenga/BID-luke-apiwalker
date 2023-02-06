@@ -140,9 +140,7 @@ return (
         ></input>
         <input id='get' type="submit" value="GET" />
     </form>
-    <div className="list">
-        {showSelected()}
-    </div>
+    <div className="list">{showSelected()}</div>
     <div className="chosen">{showChosen()}</div>
     </div>
 );
