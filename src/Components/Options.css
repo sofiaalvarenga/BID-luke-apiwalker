@@ -1,0 +1,31 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+    font-size: medium;
+}
+select{
+    background-color: rgb(14, 14, 88);
+    color: white;
+    padding: 5px 10px;
+}
+label{
+    margin-left: 10px;
+}
+#number{
+    border-color: gray;
+    padding: 5px;
+}
+#get{
+    margin-left: 10px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+}
+.chosen{
+    text-align: left;
+}
