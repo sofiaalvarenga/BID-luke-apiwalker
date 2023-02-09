@@ -3,8 +3,7 @@
 }
 h3{
     font-style: italic;
-    text-align: center;
-    font-size: medium;
+    font-size: larger;
 }
 select{
     background-color: rgb(14, 14, 88);
@@ -22,10 +21,19 @@ label{
     margin-left: 10px;
     background-color: gray;
     color: white;
-    padding: 10px;
-    border:none;
+    padding: 10px 20px;
+    border: none;
     border-radius: 5px;
 }
-.chosen{
+#get:hover{
+    background-color: rgba(139, 57, 135, 0.582);
+}
+.results{
+    padding: 20px;
     text-align: left;
+    font-size: medium;
+}
+.error p{
+    color:red;
+    font-style:italic;
 }
